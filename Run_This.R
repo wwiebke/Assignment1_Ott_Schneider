@@ -5,16 +5,13 @@
 ##################################
 
 
-setwd ('Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
+setwd ('/Users/Kyle/Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
 #change the directory above to your local director to run this file through
 
-
-#set working directory with setwd('') and then you later only give relative working paths
-
 #linking to other file, source('~filepath'), run it and the values in the environemnt has that
+source('women.R')
 
-
-
+?source
 # This file runs two different datasets
 
 # The first datset looks at the heights and weights of US women
