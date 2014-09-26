@@ -17,6 +17,6 @@
 
 - women.R looks at and explores a dataset with the average height and weight of US women.
 
-- Run_This.R looks at explores a dataset of the average annual rainfall (precipiation) of 70 US cities.
+- Run_This.R looks at and explores a dataset of the average annual rainfall (precipiation) of 70 US cities.
 
 - Finally, we made a pull request to rosecamille/CSSDA-Assigment-1 to add a citation of the software to both of their R scripts.
