@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ##################################
 # Assignment 1: Data Science Course
 # Kyle Ott & Cornelius Schneider
@@ -11,10 +11,7 @@
 ##################################################
 
 
-setwd ('/Users/Kyle/Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
-# change the directory above to your local director to run this file through
-
-# Pick the dataset
+# Select the dataset
 data(women)
 ?women
 # This data set provides the average heights (in) and 
