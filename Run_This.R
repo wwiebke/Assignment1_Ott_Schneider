@@ -6,7 +6,7 @@
 
 
 setwd ('/Users/Kyle/Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
-#change the directory above to your local director to run this file through
+# change the directory above to your local director to run this file through
 
 
 # This file runs two different datasets

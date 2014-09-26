@@ -12,13 +12,7 @@
 
 
 setwd ('/Users/Kyle/Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
-#change the directory above to your local director to run this file through
-
-=======
-#########
-# Average Heights and Weights for American Women
-#########
->>>>>>> FETCH_HEAD
+# change the directory above to your local director to run this file through
 
 # Pick the dataset
 data(women)
