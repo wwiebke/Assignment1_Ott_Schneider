@@ -7,6 +7,4 @@
 
 **Version: *26 September 2014***
 
--
-
-The objective of this assignment is to present two **fully documented**, **human readable** R scripts that are **dynamically linked **.
+-The objective of this assignment is to present two **fully documented**, **human readable** R scripts that are **dynamically linked**.
