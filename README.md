@@ -7,13 +7,13 @@
 
 **Version: *26 September 2014***
 
+<br />
+<br />
 
+- The objective of this assignment is to present two **fully documented**, **human readable** R scripts that are **dynamically linked**.
 
+- The R script file to run first is Run_This.R. This contains the dynamic link to women.R and also the R code for precipitation data.
 
--The objective of this assignment is to present two **fully documented**, **human readable** R scripts that are **dynamically linked**.
+- women.R looks at and explores a dataset with the average height and weight of US women.
 
--The R script file to run first is Run_This.R. This contains the dynamic link to women.R and also the R code for precipitation data.
-
--women.R looks at and explores a dataset with the average height and weight of US women.
-
--Run_This.R looks at explores a dataset of the average annual rainfall (precipiation) of 70 US cities.
+- Run_This.R looks at explores a dataset of the average annual rainfall (precipiation) of 70 US cities.
