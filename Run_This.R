@@ -12,42 +12,40 @@ setwd ('/Users/Kyle/Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
 # This file runs two different datasets
 
 # The first datset looks at the heights and weights of US women
+# Please see women.R for the R script
 
-#Here is our dynamic link to that R script
+source('women.R') #Here is our dynamic link to that R script
 
-source('women.R')
-
-
-###################################################################
-# The second dataset looks at the average annual precipitaion of 70
+#####################################################################
+# The second dataset looks at the average annual precipitaion of 70 #
 # cities in the US as calculated in 1975.
+#####################################################################
 
-data(precip) #this dataset comes preloaded into R
-names(precip) #lists the 70 US cities
-?precip #to learn more information about this dataset
+data(precip) # this dataset comes preloaded into R
+names(precip) # lists the 70 US cities
+?precip # to learn more information about this dataset
 
 summary(precip) 
-#but no one outside the US works with inches, let's convert to centimeters!
+# but no one outside the US works with inches, let's convert to centimeters!
 
-precip_cm <- precip*2.54 #precip_cm will be the focus from now on
+precip_cm <- precip*2.54 # precip_cm will be the focus from now on
 
-summary(precip_cm) #the output of the summary
+summary(precip_cm) # the output of the summary
 
-#Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-#7.00   29.38   36.60   34.89   42.77   67.00 
+# Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+# 7.00   29.38   36.60   34.89   42.77   67.00 
 
-#Plotting a historgram
+# Plotting a historgram
 hist(precip_cm,
      main='Average Rainfall of 70 US Cities in 1975',
      xlab='Precipation in Centimeters')
 
-
-#analysis of the distrubtion
+# The distribution appears to be somewhat normal,
+# though further analysis is needed.
 
 #Looking at variation in the data
 var(precip_cm)
 sd(precip_cm)
-#analysis
 
 # Plotting a boxplot
 boxplot(precip_cm,
