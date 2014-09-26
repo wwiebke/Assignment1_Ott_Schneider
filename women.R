@@ -71,3 +71,17 @@ sd(women$height_cm)
 # Standard Deviation for Weight in Kilograms
 sd(women$weight_kg)
 # [1] 7.030089
+
+
+
+#####################
+#Citation of Software
+#####################
+
+citation()
+
+## R Core Team (2014). R: A language and environment for
+## statistical computing. R Foundation for Statistical Computing,
+## Vienna, Austria. URL http://www.R-project.org/.
+
+
