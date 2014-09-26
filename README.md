@@ -1,4 +1,5 @@
 ### MPP-E1180: Introduction to Collaborative Social Science Data Analysis
+<br />
 ##### Instructor: Christopher Gandrud
 ##### Fall 2014
 ##### Assignment 1
