@@ -4,7 +4,7 @@
 # 26 September 2014
 ##################################
 
-
+cool first assignment!
 setwd ('/Users/Kyle/Dropbox/Fall_2014/Collab_Data/Assignment1_Ott_Schneider')
 # change the directory above to your local director to run this file through
 
